@@ -72,6 +72,7 @@ const ProgressBar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
   return (
     <motion.div
       className="fixed top-0 left-0 h-2 z-50 rounded-full shadow-lg"
